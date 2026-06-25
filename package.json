@@ -1,0 +1,29 @@
+{
+  "name": "dummy-nest-mcp",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Minimal MCP-Nest server (2 tools) instrumented with @posthog/mcp",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@nestjs/common": "^11.1.27",
+    "@nestjs/core": "^11.1.27",
+    "@nestjs/platform-express": "^11.1.27",
+    "@posthog/mcp": "^0.4.1",
+    "@rekog/mcp-nest": "^1.9.10",
+    "posthog-node": "^5.21.2",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
