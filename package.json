@@ -14,7 +14,7 @@
     "@nestjs/common": "^11.1.27",
     "@nestjs/core": "^11.1.27",
     "@nestjs/platform-express": "^11.1.27",
-    "@posthog/mcp": "^0.4.1",
+    "@posthog/mcp": "^0.4.2",
     "@rekog/mcp-nest": "^1.9.10",
     "posthog-node": "^5.21.2",
     "reflect-metadata": "^0.2.2",
